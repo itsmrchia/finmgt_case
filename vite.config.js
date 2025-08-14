@@ -9,5 +9,5 @@ const repo = 'finmgt_case';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: `/${repo}/`
+  base: `/finmgt_case/`
 });
