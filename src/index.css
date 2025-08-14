@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Custom utility classes for this project. You can extend Tailwind by
+  declaring components or utilities here. Keep it minimal to ensure the
+  generated CSS stays small.
+*/
+
+/* A simple class to cap the reading pane width on larger screens */
+.read-prose {
+  max-width: 80ch;
+}
